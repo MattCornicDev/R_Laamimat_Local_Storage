@@ -6,6 +6,11 @@ function saisirDesContacts() {
   function voirLesCourbesDesPatients() {
     window.location.href="voirLesContactsSauvegardes.html";
   }
+
+// fonction retour à la page précédente
+function goBack() {
+  window.history.back();
+}
   
 //evt// Abonnements au gestionnaire d'evenements
 //bouton ecriture dans le web storage
